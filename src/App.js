@@ -3,6 +3,7 @@ import Progress from './components/Progress';
 import Question from './components/Question';
 import Answers from './components/Answers';
 import QuizContext from './context/QuizContext';
+import {utcDateTimeFormat} from 'moment-datetime-js';
 
 import {
     SET_ANSWERS,
@@ -134,6 +135,7 @@ function App() {
         return (
             <QuizContext.Provider value={{state, dispatch}}>
                 <div className="container">
+                    <h5>Current UTC Time {utcDateTimeFormat()}</h5>
                     <Progress
                         total={questions.length}
                         current={currentQuestion + 1}
