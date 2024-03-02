@@ -1,8 +1,8 @@
 {
-  "name": "react-web",
+  "name": "react-web-demo",
   "version": "1.0.0",
   "private": false,
-  "repository":"https://github.com/minhank12345/react-web.git",
+  "repository":"https://github.com/minhank12345/react-web-demo.git",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
