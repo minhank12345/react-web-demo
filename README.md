@@ -1,4 +1,4 @@
-# Quiz App
+# Quiz App - React Web Demo
 This is a sample Quiz app using React Hooks (useReducer() + useContext()).
 
 ## Usage
